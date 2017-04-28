@@ -1,0 +1,19 @@
+html {
+    min-height: 100vh;
+    &.light {
+        @include color(#FFF);
+    }
+}
+
+body {
+    font-family: $font-text;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: $font-title;
+}
+
+h2, h3, h4, h5 {
+    font-family: $font-heading;
+}

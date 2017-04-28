@@ -1,0 +1,20 @@
+.blog__container {
+    @include container($wider-container-width);   
+}
+
+@media (min-width: $wider-container-width) {
+    body.blog, body.category {
+        &::after {
+            content: '';
+            display: block;
+            height: 100%;
+            width: 6px;
+            border-left: 4px solid;
+            position: fixed;
+            margin-left: -3px;
+            left: 50%;
+            top: 0;
+            z-index: -1;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+# Application
+html/app/plugins/*
+!html/app/plugins/.gitkeep
+html/app/mu-plugins/*/
+html/app/upgrade
+html/app/uploads/*
+!html/app/uploads/.gitkeep
+
+!html/app/plugins/advanced-custom-fields-pro
+
+# WordPress
+html/wp
+html/.htaccess
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+vendor/*
+!vendor/.gitkeep

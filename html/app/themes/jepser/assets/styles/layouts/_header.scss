@@ -1,0 +1,51 @@
+@mixin header-default {
+    right: 0;
+    height: 100%;
+    border-right: 10px solid;
+    padding-right: 10px;
+    .header__logo {
+        display: block;
+        text-align: right;
+        margin: 10px 0 20px;
+    }
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    &--default {
+        @include header-default;
+    }
+}
+
+@media (min-width: $mq-tablet-plus) {
+    .header { 
+        &--home {
+            width: 100%;
+            left: 0;
+            border-style: solid;
+            border: 10px 0 0;
+            text-align: right;
+            .header__logo {
+                float: right;
+                margin: 5px 20px;
+            }
+        }
+    }
+}
+@media (max-width: $mq-tablet-less) {
+    .header {
+        position: static;
+        @include header-default;
+        &::after {
+            content: '';
+            position: fixed;
+            right: 0;
+            top: 0;
+            height: 100%;
+            display: block;
+            border-right: 10px solid;
+        }
+    }
+}

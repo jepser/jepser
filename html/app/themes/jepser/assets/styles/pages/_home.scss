@@ -1,0 +1,62 @@
+body.home {
+    
+    overflow: hidden;
+}
+.home-page {
+    @include v-holder;
+    height: 100vh;
+    &__container {
+        @include container(1024px);
+    }
+    &__content {
+        @include v-container;
+    }
+    &__title {
+        font-family: $font-heading;
+        font-size: 48px;
+        font-weight: 500;
+        margin: 0;
+    }
+    &__sub-title {
+        @extend .home-page__title;
+    }
+}
+
+.blog-title {
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    width: 100%;
+    &__container {
+        @include container(1024px);
+    }
+    &__heading {
+        @include title;
+        margin: 0;
+    }
+}
+
+@media (max-width: $mq-tablet-less) {
+    .home-page {
+        height: auto;
+        &__title {
+            margin: 40px 0 0;
+            font-size: 32px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body.home {
+        overflow: visible;
+    }
+    .blog-title {
+        position: relative;
+        bottom: 0;
+    }
+    .home-page {
+        &__title, &__sub-title {
+            font-size: 28px;
+        }
+    }
+}

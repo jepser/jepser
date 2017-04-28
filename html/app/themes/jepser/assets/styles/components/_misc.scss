@@ -1,0 +1,7 @@
+hr {
+    border-width: 2px;
+    border-style: solid;
+    &.short {
+        width: 50%;
+    }
+}
