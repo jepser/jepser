@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: $main-font;
+    margin: 0;
+    padding: 15px;
+
+    border: 15px solid $brand-color;
+
+
+    min-height: 100vh;
+
+    font-size: 18px;
+}
+
+a{
+    color: inherit;
+    position: relative;
+
+    text-decoration: none;
+
+    &::after {
+        
+        content: '';
+
+        display: block;
+
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+
+        height: 5px;
+        width: 100%;
+
+        background-color: rgba($brand-color, .3);
+    }
+
+    &:hover {
+        &::after {
+            background-color: rgba($brand-color, .5);
+        }
+    }
+
+    &:active {
+        &::after {
+            bottom: 1px;
+        }
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $heading-font;
+}
+
+hr {
+    border: 0;
+    border-bottom: 5px solid rgba($brand-color, 1);
+}

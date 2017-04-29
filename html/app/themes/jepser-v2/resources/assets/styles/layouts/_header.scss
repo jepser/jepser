@@ -1,0 +1,30 @@
+.banner {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    &__brand {
+        text-decoration: none;
+
+        display: block;
+
+        width: 62px;
+        height: 72px;
+
+        float: right;
+
+        margin: 15px 15px 20px;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    &__container {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 940px) {
+
+}
