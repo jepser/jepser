@@ -5,3 +5,22 @@ $white: #FFF;
 
 $main-font: Karla,sans-serif;
 $heading-font: Playfair Display,serif;
+
+
+@mixin line($bottom: 2px, $width: 100%) {
+    &::after {
+        
+        content: '';
+
+        display: block;
+
+        position: absolute;
+        bottom: $bottom;
+        left: 0;
+
+        height: 5px;
+        width: $width;
+
+        background-color: rgba($brand-color, .3);
+    }
+}

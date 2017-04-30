@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eb2c49fd6c3721e4d6937af122f434b0",
-    "content-hash": "e261de4faf02a966d5a37b77edc4b257",
+    "hash": "7326b302a29a1914cede44869141529d",
+    "content-hash": "63faaa3452af1fdacdd87ca36cd4c063",
     "packages": [
         {
             "name": "composer/installers",
@@ -386,6 +386,26 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "wpackagist-plugin/custom-post-template",
+            "version": "1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-post-template/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-template.zip?timestamp=1339690293",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-post-template/"
         }
     ],
     "packages-dev": [

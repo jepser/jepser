@@ -12,6 +12,12 @@
 
     }
 
+    &__link {
+        &::after {
+            display: none;
+        }
+    }
+
     &__meta {
 
         .single & {
@@ -25,5 +31,20 @@
         font-size: 48px;
         font-weight: 500;
         font-style: italic;
+    }
+
+    &--mini {
+
+        margin-bottom: 70px;
+
+        position: relative;
+
+        @include line(-30px, 50%);
+
+        .article__title {
+            margin: 10px 0 20px;
+
+            font-size: 24px;
+        }
     }
 }

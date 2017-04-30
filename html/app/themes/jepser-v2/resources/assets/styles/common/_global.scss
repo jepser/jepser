@@ -40,21 +40,7 @@ a{
 
     text-decoration: none;
 
-    &::after {
-        
-        content: '';
-
-        display: block;
-
-        position: absolute;
-        bottom: 2px;
-        left: 0;
-
-        height: 5px;
-        width: 100%;
-
-        background-color: rgba($brand-color, .3);
-    }
+    @include line;
 
     &:hover {
         &::after {
@@ -90,6 +76,12 @@ hr {
     border-bottom: 5px solid rgba($brand-color, 1);
 }
 
+ul, ol {
+    li {
+        margin: 0 0 10px;
+    }
+}
+
 ::-moz-selection { /* Code for Firefox */
     color: $white;
     background: $brand-color;
@@ -98,4 +90,8 @@ hr {
 ::selection {
     color: $white;
     background: $brand-color;
+}
+
+.screen-reader-text {
+    display: none;
 }
