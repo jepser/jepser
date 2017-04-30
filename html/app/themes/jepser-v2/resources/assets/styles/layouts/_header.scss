@@ -23,8 +23,8 @@
     &__container {
         margin: 10px;
     }
-}
 
-@media (min-width: 940px) {
-
+    @media (min-width: 885px) {
+        position: fixed;
+    }
 }
