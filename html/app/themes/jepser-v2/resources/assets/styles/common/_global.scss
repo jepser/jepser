@@ -13,6 +13,7 @@ body {
 
     border: 15px solid $brand-color;
 
+    color: $text-color;
 
     min-height: 100vh;
 
@@ -62,7 +63,25 @@ h5 {
     font-family: $heading-font;
 }
 
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
 hr {
     border: 0;
     border-bottom: 5px solid rgba($brand-color, 1);
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: $white;
+    background: $brand-color;
+}
+
+::selection {
+    color: $white;
+    background: $brand-color;
 }

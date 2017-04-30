@@ -16,7 +16,7 @@
 @if (!is_front_page())
 <div class="page__title page-title">
     <h1 class="page-title__content">
-        @if(is_single())
+        @if(is_single() || is_home())
             Blog
         @elseif(is_category())
             {{ single_cat_title() }}
