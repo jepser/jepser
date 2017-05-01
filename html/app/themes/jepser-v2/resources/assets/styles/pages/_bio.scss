@@ -1,0 +1,35 @@
+.bio {
+
+    &__container {
+        @include container;
+
+        margin-top: 200px;
+    }
+
+    &__intro {
+        text-align: center;
+    }
+
+    &__life {
+        font-size: 24px;
+    }
+
+    &__title {
+        font-size: 40px;
+    }
+}
+
+.projects {
+
+    &__container {
+        @include container;
+    }
+
+    &__list {
+        font-size: 18px;
+    }
+
+    &__item {
+
+    }
+}

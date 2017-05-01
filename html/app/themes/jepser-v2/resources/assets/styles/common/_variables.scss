@@ -1,5 +1,5 @@
 // Colors
-$brand-color: #0010FF;
+$brand-color: #0010FF!default;
 $text-color: #111;
 $white: #FFF;
 
@@ -22,5 +22,53 @@ $heading-font: Playfair Display,serif;
         width: $width;
 
         background-color: rgba($brand-color, .3);
+    }
+}
+
+@mixin container($max-width: 640px) {
+    max-width: $max-width;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@mixin content-colors($brand-color: $brand-color) {
+    &::after {
+        border-color: $brand-color;
+    }
+
+    a {
+        &::after {
+            background-color: rgba($brand-color, .3);
+        }
+
+        &:hover {
+            &::after {
+                background-color: rgba($brand-color, .5);
+            }
+        }
+    }
+
+    hr {
+        border-bottom-color: rgba($brand-color, 1);
+    }
+
+    .page-title {
+        background-color: $brand-color;
+    }
+
+    #jepser-logo {
+        stroke: $brand-color;
+    }
+    
+    .navigation {
+        a {
+            color: $brand-color;
+
+            &::after {
+                background-color: $brand-color;
+            }
+        }
     }
 }

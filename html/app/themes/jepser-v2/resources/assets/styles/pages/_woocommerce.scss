@@ -1,0 +1,5 @@
+$main-color: #a46497;
+
+.woocommerce-credomatic {
+    @include content-colors($main-color);
+}
