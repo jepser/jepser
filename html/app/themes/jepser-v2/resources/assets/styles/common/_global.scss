@@ -29,7 +29,7 @@ body {
         
         pointer-events: none;
 
-        border: 15px solid;
+        border: 15px solid $brand-color;
 
     }
 }
@@ -74,7 +74,7 @@ h3 {
 
 hr {
     border: 0;
-    border-bottom: 5px solid;
+    border-bottom: 5px solid $brand-color;
 }
 
 ul, ol {
