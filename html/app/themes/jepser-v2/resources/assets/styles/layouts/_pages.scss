@@ -43,16 +43,16 @@
 
     &__container {
         position: absolute;
-        left: 40px;
-        bottom: 40px;
+        left: 0;
+        bottom: 0;
 
         max-width: 900px;
 
-        padding-right: 100px;
+        padding: 40px;
     }
 
     &__title {
-        font-size: 40px;
+        font-size: 24px;
         font-family: $main-font;
         font-weight: 500;
 
@@ -62,4 +62,23 @@
             margin-bottom: 0;
         }
     }
+
+    @media (min-width: 660px) {
+
+        &__container {
+            padding: 60px 100px 60px 60px;
+        }
+
+        &__title {
+            font-size: 30px;
+        }
+
+    }
+    @media (min-width: 769px) {
+
+        &__title {
+            font-size: 36px;   
+        }
+    }
 }
+
