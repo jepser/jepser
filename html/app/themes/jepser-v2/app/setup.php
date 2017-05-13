@@ -62,11 +62,6 @@ add_action('after_setup_theme', function () {
      */
     add_theme_support('customize-selective-refresh-widgets');
 
-    /**
-     * Use main stylesheet for visual editor
-     * @see resources/assets/styles/layouts/_tinymce.scss
-     */
-    add_editor_style(asset_path('styles/main.css'));
 }, 20);
 
 /**
