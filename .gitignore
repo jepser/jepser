@@ -6,7 +6,6 @@ html/app/upgrade
 html/app/uploads/*
 !html/app/uploads/.gitkeep
 
-!html/app/plugins/advanced-custom-fields-pro
 !html/app/plugins/custom-post-template
 
 # WordPress
