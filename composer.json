@@ -42,6 +42,30 @@
           "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=b3JkZXJfaWQ9MzM3OTV8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE0LTA3LTA4IDE2OjI0OjUy"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "deliciousbrains/wp-migrate-db-pro",
+        "type": "wordpress-plugin",
+        "version": "1.7.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-latest.zip?licence_key=15b651ee-ab56-4cac-95fd-51c03ff9e1a9&site_url=composer-test.dev"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "deliciousbrains/wp-migrate-db-pro-media-files",
+        "type": "wordpress-plugin",
+        "version": "1.4.7",
+        "dist": {
+          "type": "zip",
+          "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-media-files-latest.zip?licence_key=15b651ee-ab56-4cac-95fd-51c03ff9e1a9&site_url=composer-test.dev"
+        }
+      }
     }
   ],
   "require": {
@@ -54,7 +78,10 @@
     "wpackagist-plugin/google-sitemap-generator": "4.0.8",
     "wpackagist-plugin/all-in-one-seo-pack": "2.3.12.4",
     "wpackagist-plugin/ga-google-analytics": "20161116",
-    "advanced-custom-fields/advanced-custom-fields-pro": "*"
+
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "deliciousbrains/wp-migrate-db-pro": "*",
+    "deliciousbrains/wp-migrate-db-pro-media-files": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"

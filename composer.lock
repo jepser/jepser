@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5cba6e9f5ea3921aa46c209669e4b277",
-    "content-hash": "f3f1dcff8f2df7bb8b1a5d31263d637e",
+    "hash": "738bb48d1ccbcb599cb0d2650f3dd07d",
+    "content-hash": "1a38ab5753fa1cc62eb145ec954ab248",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -124,6 +124,28 @@
                 "zikula"
             ],
             "time": "2016-08-13 20:53:52"
+        },
+        {
+            "name": "deliciousbrains/wp-migrate-db-pro",
+            "version": "1.7.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-latest.zip?licence_key=15b651ee-ab56-4cac-95fd-51c03ff9e1a9&site_url=composer-test.dev",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "deliciousbrains/wp-migrate-db-pro-media-files",
+            "version": "1.4.7",
+            "dist": {
+                "type": "zip",
+                "url": "https://deliciousbrains.com/dl/wp-migrate-db-pro-media-files-latest.zip?licence_key=15b651ee-ab56-4cac-95fd-51c03ff9e1a9&site_url=composer-test.dev",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "johnpbloch/wordpress",
