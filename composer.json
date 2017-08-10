@@ -78,6 +78,8 @@
     "wpackagist-plugin/google-sitemap-generator": "4.0.8",
     "wpackagist-plugin/all-in-one-seo-pack": "2.3.12.4",
     "wpackagist-plugin/ga-google-analytics": "20161116",
+    "wpackagist-plugin/amazon-web-services": "1.0.3",
+    "wpackagist-plugin/amazon-s3-and-cloudfront": "1.2",
 
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "deliciousbrains/wp-migrate-db-pro": "*",
