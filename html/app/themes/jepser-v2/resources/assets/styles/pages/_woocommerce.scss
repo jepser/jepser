@@ -1,5 +1,18 @@
 $main-color: #a46497;
 
 .woocommerce-credomatic {
-    @include content-colors($main-color);
+  @include content-colors($main-color);
+
+  .cta {
+    border-color: transparentize($main-color, .7);
+
+    &__button {
+      background-color: $main-color;
+      color: white;
+
+      &::after {
+          display: none;
+      }
+    }
+  }
 }
