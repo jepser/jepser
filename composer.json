@@ -80,6 +80,7 @@
     "wpackagist-plugin/ga-google-analytics": "20170731",
     "wpackagist-plugin/amazon-web-services": "1.0.3",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "1.2",
+    "wpackagist-plugin/typeform": "0.7.4",
 
     "advanced-custom-fields/advanced-custom-fields-pro": "*",
     "deliciousbrains/wp-migrate-db-pro": "*",

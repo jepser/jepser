@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1780bf07a77c23627cb6b11bc13312a3",
-    "content-hash": "4c10cbfbf59bf47376a79766fcf13ae5",
+    "hash": "087472e5cb7a7c95554815515046cbb0",
+    "content-hash": "691f428eb40c94b026f2340ee19cef7c",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -527,6 +527,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
+        },
+        {
+            "name": "wpackagist-plugin/typeform",
+            "version": "0.7.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/typeform/",
+                "reference": "tags/0.7.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/typeform.0.7.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/typeform/"
         }
     ],
     "packages-dev": [
