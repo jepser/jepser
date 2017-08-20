@@ -4,15 +4,27 @@ namespace App;
 
 add_shortcode('cta-button', function ($atts, $content) {
     $atts = shortcode_atts([
-        'href' => ''
+        'href' => '',
+        'popup' => false,
+        'classes'  => []
     ], $atts);
 
     extract($atts);
 
+    $classes[] =  'cta__button';
+
+    if ($popup) {
+        $classes[] = 'typeform-share';
+    }
+
     ob_start();
 ?>
 <div class="cta">
-    <a class="cta__button" href="<?= $href; ?>">
+    <a
+        class="<?= implode(' ', $classes); ?>"
+        href="<?= $href; ?>"
+        <?= $popup ? 'data-mode="popup" ' : ''; ?>
+    >
         <?= $content; ?>
     </a>
 </div>
