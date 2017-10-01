@@ -2,8 +2,6 @@
 
     &__container {
         @include container;
-
-        margin-top: 200px;
     }
 
     &__intro {
@@ -15,7 +13,18 @@
     }
 
     &__title {
+        margin-top: 60px;
         font-size: 40px;
+    }
+
+    &__image {
+        display: block;
+        width: 100%;
+        max-width: 700px;
+        margin: 40px auto -55px;
+        z-index: -1;
+        position: relative;
+        filter: grayscale(35%);
     }
 }
 

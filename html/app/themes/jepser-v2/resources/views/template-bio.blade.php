@@ -6,24 +6,31 @@
 
 @section('content')
 <div class="bio">
+    <img src="@asset('images/jepser-profile.jpg')" class="bio__image">
     <div class="bio__container">
+        <hr>
         <div class="bio__intro">
             <h2 class="bio__title">Jepser Bernardino Ambrocio, <br> Front-End developer & WordPress expert.</h2>
         </div>
         <hr>
         <div class="bio__life">
             <p>Vivo en <strike> la ciudad de Guatemala</strike> Barcelona, España.</p>
-            <p>Desarrollo interfaces de usuario.</p>
-            <p>He tenido el honor de haber colaborado con Saatchi & Saatchi, BBDO, Taco Bell, Starmedia entre otras marcas.</p>
+            <p>Tengo más de 7 años de experiencia como developer.</p>
+            <p>He tenido el honor de haber colaborado con Saatchi & Saatchi, BBDO, Taco Bell y Starmedia.</p>
+            <p>Soy co-fundador de <a href="http://royalestudios.com">Royal Estudios</a>.</p>
             <p>Me gusta la cerveza artesanal y los café de especialidad.</p>
-            <p>Trabajo en <a href="https://www.typeform.com">Typeform</a>.</p>
+            <p>Trabajo como Front-End Engineer en <a href="https://www.typeform.com">Typeform</a>.</p>
         </div>
     </div>
 </div>
 <div class="projects">
     <div class="projects__container">
+        <hr>
         <h3 class="projects__title">Proyectos destacados</h3>
         <ul class="projects__list">
+            <li class="projects__item project">
+                <a href="http://jepser.com/labs/woocommerce-credomatic/" class="project__link">WooCredomatic, plugin de pago para Centro América</a>
+            </li>
             <li class="projects__item project">
                 <a href="http://spotify-youtube.jepser.com" class="project__link">Spotify to Youtube Converter App</a>
             </li>
